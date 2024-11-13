@@ -2,8 +2,6 @@ import express from 'express'
 import { fileURLToPath } from 'url';
 import ConnectDatabase from '../DBConnect/Connect.js';
 import cors from 'cors';
-import path from 'path'
-import { dirname } from 'path';
 import bodyParser from 'body-parser';
 import { User } from '../Model/userModel.js';
 const PORT  = 3000||4000;
